@@ -1,0 +1,15 @@
+[
+  {
+    "name": "getAppInfo",
+    "option": {
+      "event": "getAppInfo",
+      "hook": "WorkPlus_PublicClound"
+    }
+  },{
+    "name": "getConfig",
+    "option": {
+      "event": "getConfig",
+      "hook": "WorkPlus_LightApp"
+    }
+  }
+]
