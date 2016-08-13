@@ -14,5 +14,35 @@
       "event": "getConfig",
       "hook": "WorkPlus_LightApp"
     }
+  },{
+    "name": "onAccessTokenOverdue",
+    "option": {
+      "event": "onAccessTokenOverdue",
+      "hook": "WorkPlus_Auth"
+    }
+  },{
+    "name": "getServerInfo",
+    "option": {
+      "event": "getServerInfo",
+      "hook": "WorkPlus_Auth"
+    }
+  },{
+    "name": "getUserToken",
+    "option": {
+      "event": "getUserToken",
+      "hook": "WorkPlus_Auth"
+    }
+  },{
+    "name": "getUserTicket",
+    "option": {
+      "event": "getUserTicket",
+      "hook": "WorkPlus_Auth"
+    }
+  },{
+    "name": "getTenantID",
+    "option": {
+      "event": "getTenantID",
+      "hook": "WorkPlus_Auth"
+    }
   }
 ]
