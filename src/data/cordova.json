@@ -15,6 +15,120 @@
       "hook": "WorkPlus_LightApp"
     }
   },{
+    "name": "takePhoto",
+    "option": {
+      "event": "takePhoto",
+      "hook": "WorkPlus_Image"
+    }
+  },{
+    "name": "takePhotoWithEdit",
+    "option": {
+      "event": "takePhotoWithEdit",
+      "hook": "WorkPlus_Image"
+    }
+  },{
+    "name": "selectImage",
+    "option": {
+      "event": "selectImage",
+      "hook": "WorkPlus_Image"
+    }
+  },{
+    "name": "selectImageWithEdit",
+    "option": {
+      "event": "selectImageWithEdit",
+      "hook": "WorkPlus_Image"
+    }
+  },{
+    "name": "selectImages",
+    "option": {
+      "event": "selectImages",
+      "hook": "WorkPlus_Image"
+    }
+  },{
+    "name": "cleanCompressImage",
+    "option": {
+      "event": "cleanCompressImage",
+      "hook": "WorkPlus_Image"
+    }
+  },{
+    "name": "showImages",
+    "option": {
+      "event": "showImages",
+      "hook": "WorkPlus_Image"
+    }
+  },{
+    "name": "saveImages",
+    "option": {
+      "event": "saveImages",
+      "hook": "WorkPlus_Image"
+    }
+  },{
+    "name": "getUserInfo",
+    "option": {
+      "event": "getUserInfo",
+      "hook": "WorkPlus_Contact"
+    }
+  },{
+    "name": "getUserInfoByUsernames",
+    "option": {
+      "event": "getUserInfoByUsernames",
+      "hook": "WorkPlus_Contact"
+    }
+  },{
+    "name": "getContact",
+    "option": {
+      "event": "getContact",
+      "hook": "WorkPlus_Contact"
+    }
+  },{
+    "name": "getContacts",
+    "option": {
+      "event": "getContacts",
+      "hook": "WorkPlus_Contact"
+    }
+  },{
+    "name": "showUserInfoByUsername",
+    "option": {
+      "event": "showUserInfoByUsername",
+      "hook": "WorkPlus_Contact"
+    }
+  },{
+    "name": "showUserChatViewByUsername",
+    "option": {
+      "event": "showUserChatViewByUsername",
+      "hook": "WorkPlus_Contact"
+    }
+  },{
+    "name": "getContactsFromMobile",
+    "option": {
+      "event": "getContactsFromMobile",
+      "hook": "WorkPlus_Contact"
+    }
+  },{
+    "name": "selectFile",
+    "option": {
+      "event": "selectFile",
+      "hook": "WorkPlus_Files"
+    }
+  },{
+    "name": "selectFiles",
+    "option": {
+      "event": "selectFiles",
+      "hook": "WorkPlus_Files"
+    }
+  },{
+    "name": "getEmailAttachmentDir",
+    "option": {
+      "event": "getEmailAttachmentDir",
+      "hook": "WorkPlus_Files"
+    }
+  },{
+    "name": "openEmailAttachment",
+    "option": {
+      "event": "openEmailAttachment",
+      "hook": "WorkPlus_Files"
+    }
+  },{
     "name": "onAccessTokenOverdue",
     "option": {
       "event": "onAccessTokenOverdue",
@@ -43,6 +157,42 @@
     "option": {
       "event": "getTenantID",
       "hook": "WorkPlus_Auth"
+    }
+  },{
+    "name": "shareUrl",
+    "option": {
+      "event": "shareUrl",
+      "hook": "WorkPlus_WebView"
+    }
+  },{
+    "name": "exit",
+    "option": {
+      "event": "exit",
+      "hook": "WorkPlus_WebView"
+    }
+  },{
+    "name": "openWebView",
+    "option": {
+      "event": "openWebView",
+      "hook": "WorkPlus_WebView"
+    }
+  },{
+    "name": "getLocation",
+    "option": {
+      "event": "getLocation",
+      "hook": "WorkPlus_Location"
+    }
+  },{
+    "name": "getIpAddress",
+    "option": {
+      "event": "getIpAddress",
+      "hook": "WorkPlus_DeviceInfo"
+    }
+  },{
+    "name": "scanner",
+    "option": {
+      "event": "scanner",
+      "hook": "WorkPlus_BarcodeScanner"
     }
   }
 ]
