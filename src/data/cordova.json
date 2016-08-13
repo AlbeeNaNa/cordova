@@ -1,3 +1,6 @@
+/*
+* all cordova events
+*/
 [
   {
     "name": "getAppInfo",

@@ -1,0 +1,5 @@
+/*
+* custom build
+*/
+
+["getAppInfo", "getConfig"]

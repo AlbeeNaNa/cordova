@@ -3,7 +3,7 @@
 export default {
   // 格式化返回数据
   jsonParse(str){
-    if (typeof str === 'String') return JSON.parser(str);
+    if (typeof str === 'String') return JSON.parse(str);
     return str;
   },
 
@@ -31,7 +31,7 @@ export default {
           params && params.error && params.error(error);
           reject(error);
         },
-        option.event, option.hook,
+        option.hook, option.event,
         params.params || []);
       });
       // success
@@ -51,5 +51,33 @@ export default {
 
       return promise;
     };
-  }
+  },
+  // bindEvents(option){
+  //   let self = this;
+  //   return function(params){
+  //     // promise
+  //     let promise = new Promise((resolve, reject) => {
+  //       setTimeout(() => {
+  //         params && params.success && params.success(result);
+  //         resolve({'option': option, 'params': params});
+  //       }, 2000);
+  //     });
+  //     // success
+  //     promise.success = fn => {
+  //       promise.then(result => {
+  //         fn(result);
+  //       });
+  //       return promise;
+  //     };
+  //     // error
+  //     promise.error = fn => {
+  //       promise.then(null, result => {
+  //         fn(result);
+  //       });
+  //       return promise;
+  //     }
+  //
+  //     return promise;
+  //   };
+  // }
 };
